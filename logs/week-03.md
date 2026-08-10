@@ -1,6 +1,6 @@
 # Week 3
 
-**Dates:** July 29 – August 4, 2026
+**Dates:** July 29 – August 7, 2026
 
 ## Goals
 
