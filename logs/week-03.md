@@ -22,7 +22,7 @@ Relocated to Utica and attended the MPI workshop, gaining hands-on exposure to p
 - Read and annotated entries for 20+ papers across the annotated bibliography.
 - Completed a one-page summary of PHI recognition methods.
 - Completed a one-page summary of differential privacy in clinical NLP.
-- Drafted a short note describing how the privacy-preserving NER pipeline will connect to the quantum kernel experiments.
+- Documented the connection points between the classical NER baseline and the quantum kernel pipeline.
 - i2b2/MIMIC-III dataset access is still awaiting approval; the dataset load and PHI category count have not yet been performed.
 
 ## Notes/Next Steps
@@ -31,5 +31,3 @@ Relocated to Utica and attended the MPI workshop, gaining hands-on exposure to p
 - Continue reading on clinical transformer models (ClinicalBERT, BioBERT, PubMedBERT, and transformer-based clinical NER) to understand current state-of-the-art clinical NER systems, alongside more of a review on quantum kernel methods and quantum NLP (lambeq/DisCoCat).
 - Load the i2b2/MIMIC-III dataset, or an alternative placeholder dataset, and count PHI category frequencies once access is approved.
 - Begin implementing the baseline system and SHAP analysis.
-
-
