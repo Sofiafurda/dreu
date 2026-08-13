@@ -1,6 +1,6 @@
 # Week 2
 
-**Date:** July 20 – July 28, 2026
+**Date:** July 20 – July 27, 2026
 
 ---
 
