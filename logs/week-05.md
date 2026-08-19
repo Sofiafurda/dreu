@@ -11,6 +11,7 @@
 ## Approach and Implementation
 
 Received approval and downloaded the clinical notes file from PhysioNet (MIMIC-III v1.4). Built the data pipeline using regex extraction of MIMIC-III's built-in [...] de-identification brackets as ground-truth PHI spans. Tokenized the notes and assigned BIO tags (B-/I-/O) based on bracket category. Validated extracted dates against MIMIC-III's documented 2100–2200 shifted date range and refined the category-mapping logic across two passes after identifying a date-format gap that was inflating the OTHER category. Processed a 1,500-note sample end-to-end and produced a PHI category class-imbalance breakdown.
+
 Drafted the methodology document outlining the proposed pipeline. The planned approach uses a classical NER baseline (fine-tuned BioBERT/ClinicalBERT, without DP) as an accuracy ceiling, with RAG-based context retrieval for NER disambiguation. Differentially private training will then be parallelized with MPI using Opacus across ε = 1, 2, 4, and 8. The pipeline branches into a quantum-kernel comparison (PCA + ZZFeatureMap + SVM, compared against a classical RBF) and a SHAP faithfulness analysis. These results will converge into a final privacy-utility analysis consisting of a three-curve performance chart and a SHAP degradation curve across ε. The methodology document also provides the rationale for the RAG retrieval, MPI parallelization, and quantum/SHAP components.
 
 ## Results
